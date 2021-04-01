@@ -28,7 +28,7 @@ FormFillPages ffp;
 	@Given("^I start to fill out the form$")
 	public void i_start_to_fill_out_the_form()  {
 		
-		ffp.FirstName.sendKeys("Blue1");
+		ffp.FirstName.sendKeys("Blue12");
 		
 		//driver.findElement(By.xpath("//input[@id='firstName']")).click();
 		//driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("Ankur");
