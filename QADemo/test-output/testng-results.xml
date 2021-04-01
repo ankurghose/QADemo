@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2828" started-at="2021-04-01T14:45:08 EDT" finished-at="2021-04-01T14:45:11 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2828" started-at="2021-04-01T14:45:08 EDT" finished-at="2021-04-01T14:45:11 EDT">
+      <class name="com.StepDef.ValidFormFill">
+        <test-method status="PASS" signature="i_am_on_the_Test_QA_Form_Page()[pri:0, instance:com.StepDef.ValidFormFill@1b26f7b2]" name="i_am_on_the_Test_QA_Form_Page" duration-ms="2650" started-at="2021-04-01T14:45:08 EDT" finished-at="2021-04-01T14:45:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_am_on_the_Test_QA_Form_Page -->
+        <test-method status="PASS" signature="i_start_to_fill_out_the_form()[pri:0, instance:com.StepDef.ValidFormFill@1b26f7b2]" name="i_start_to_fill_out_the_form" duration-ms="151" started-at="2021-04-01T14:45:11 EDT" finished-at="2021-04-01T14:45:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_start_to_fill_out_the_form -->
+      </class> <!-- com.StepDef.ValidFormFill -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
