@@ -23,7 +23,41 @@ public class FormFillPages {
 		return FirstName;
 	}
 
+	@FindBy(xpath="//button[@id='submit']")
+	public WebElement SubmitButton;
 
+	public WebElement getSubmitButton() {
+		return SubmitButton;
+	}
+
+	@FindBy(xpath="//input[@id='lastName']")
+	public WebElement LastName;
+
+	public WebElement getLastName() {
+		return LastName;
+	}
+
+	@FindBy(xpath="//label[contains(text(),'Male')]")
+	public WebElement Gender;
+	
+	public WebElement getGender() {
+		return Gender;
+	}
+	
+	@FindBy(xpath="//input[@id='userNumber']")
+	public WebElement MobileNumber;
+
+	public WebElement getMobileNumber() {
+		return MobileNumber;
+	}
+	
+	@FindBy(xpath="//button[@id='closeLargeModal']")
+	public WebElement PopUpClose;
+
+	public WebElement getPopUpClose() {
+		return PopUpClose;
+	}
+	
 	
 	
 	
