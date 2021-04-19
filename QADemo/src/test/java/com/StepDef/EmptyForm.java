@@ -1,5 +1,7 @@
 package com.StepDef;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.PageFactory;
@@ -58,6 +60,8 @@ FormFillPages ffp;
 	@Then("^I validate the mandatory fields are in red$")
 	public void i_validate_the_mandatory_fields_are_in_red()  {
 	    
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.quit();
 	}
 
 

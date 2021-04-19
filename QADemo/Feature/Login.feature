@@ -1,4 +1,4 @@
-@DataTable @Smoke @Functional @Login
+@DataTable  @Functional @Login
 Feature: Login With Data Tables
   
 

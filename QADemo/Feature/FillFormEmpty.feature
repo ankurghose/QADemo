@@ -1,5 +1,5 @@
 
-@Empty
+@Empty @Smoke
 Feature: Empty Form
   
 
