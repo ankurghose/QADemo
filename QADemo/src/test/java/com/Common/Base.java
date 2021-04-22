@@ -41,5 +41,15 @@ public class Base {
 		return driver;
 
 	}
+	public WebDriver getdriver4() {
+
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver90");
+		driver = new ChromeDriver();
+
+		driver.get("https://test.crowdstreet.com/");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		return driver;
+
+	}
 
 }

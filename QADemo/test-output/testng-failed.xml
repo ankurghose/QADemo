@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.StepDef.JetBlue">
+      <class name="com.StepDef.CrowdStreet">
         <methods>
-          <include name="i_am_JetBlue_Search_Flight_site"/>
+          <include name="i_am_on_the_CrowdStreet_Website"/>
         </methods>
-      </class> <!-- com.StepDef.JetBlue -->
+      </class> <!-- com.StepDef.CrowdStreet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
